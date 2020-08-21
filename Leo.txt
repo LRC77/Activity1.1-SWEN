@@ -1,0 +1,19 @@
+mkdir SoftDevI
+cd SoftDevI
+mkdir Unit01
+cd Unit01
+echo.>file01.txt
+echo.>file02.txt
+mkdir Assignment01
+cd Assignment01
+mkdir Leo
+cd ..
+cd ..
+move file02.txt Assignment01
+cd Assignment01
+move file02.txt Leo
+cd Leo
+file02.txt
+cd..
+cd..
+rmdir /Q /S Assignment01
